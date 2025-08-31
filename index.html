@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wallet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <!-- Top Bar -->
+    <div class="status">
+      <div class="left">
+        <div class="hamb">☰</div>
+        <div class="msg">
+          💬
+          <span class="badge">58</span>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <div class="tab active">Exchange</div>
+        <div class="tab">Wallet</div>
+      </div>
+
+      <div class="top-icons">
+        <div class="icon">🎧</div>
+      </div>
+    </div>
+
+    <!-- Header / Balance -->
+    <div class="header">
+      <div class="brand-pill">🔥 MITO</div>
+      <div class="est">Est. Total Value (USD)</div>
+      <div class="big-balance" id="bigBalance">$205.00</div>
+
+      <div class="pnl">Today's PNL <span>+$0.00000007 (0.00%)</span></div>
+      <button class="add-btn">Add Funds</button>
+
+      <div class="actions">
+        <div class="action"><div class="icon">🎟️</div>Rewards Hub</div>
+        <div class="action"><div class="icon">🌟</div>Sharia Earn</div>
+        <div class="action"><div class="icon">👤</div>Referral</div>
+        <div class="action"><div class="icon">💰</div>Earn</div>
+      </div>
+    </div>
+
+    <!-- Promo Banner -->
+    <div class="promo">
+      <div>Discover personalized home experiences!</div>
+      <a href="#">→</a>
+    </div>
+
+    <!-- Favorites -->
+    <div class="card">
+      <div class="seg-tabs">
+        <div class="active">Favorites</div>
+        <div>Hot</div>
+        <div>Alpha</div>
+        <div>New</div>
+        <div>Gainer</div>
+      </div>
+
+      <div class="market-list" id="marketList"></div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <!-- Bottom Nav -->
+    <div class="bottom-nav">
+      <div class="nav-item active">🏠<br>Home</div>
+      <div class="nav-item">📊<br>Markets</div>
+      <div class="nav-item">🔄<br>Trade</div>
+      <div class="nav-item">📈<br>Futures</div>
+      <div class="nav-item">💼<br>Assets</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
